@@ -7,7 +7,7 @@ body{
     width: 550px;
     height: 550px;
     left: 62px;
-    top: 64px;  
+    top: 7px;  
     background-color: #1F2937;
 }
 
@@ -70,6 +70,7 @@ body{
 
 #pwd1 {
     position: absolute;
+    text-align: center;
     width: 211px;
     height: 39px;
     left: 52px;
@@ -77,36 +78,47 @@ body{
     background-color: #273549;
     border-radius: 6px;
     color: white;
+    font-size: 25px;
+  
 }
 
 #pwd2 {
     position: absolute;
+    text-align: center;
     width: 211px;
     height: 39px;
     left: 287px;
     top: 399px;
     background: #273549;
     border-radius: 6px;
+    color: white;
+    font-size: 25px;
 }
 
 #pwd3 {
     position: absolute;
+    text-align: center;
     width: 211px;
     height: 39px;
     left: 52px;
     top: 465px;
     background-color: #273549;
     border-radius: 6px;
+    color: white;
+    font-size: 25px;
 }
 
 #pwd4 {
     position: absolute;
+    text-align: center;
     width: 211px;
     height: 39px;
     left: 287px;
     top: 465px;
     background-color: #273549;
     border-radius: 6px;
+    color: white;
+    font-size: 25px;
 
 }
 
