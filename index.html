@@ -4,21 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Oswald:wght@200;600;700&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Oswald:wght@200;600;700&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Password Generator</title>
 </head>
+
 <body>
     <div class="hero">
-        <h1 class="title">Generate a <br> <span id="secondColor">random password</span></h1>
-        <p class="support">Never use an insecure password again.</p>
-        <button id="generate" onclick="runPassWord()">
-            <img id="flash" src="img/flash.png" alt="lightning bolt" > Generate Password
-        </button>
-        <p id="line"></p>
-        <p id="pwd1"><img id="dots1" src="img/dots.png" alt="3 dots"></p>
-        <p id="pwd2"><img id="dots2" src="img/dots.png" alt="3 dots"></p>
-        <p id="pwd3"><img id="dots3" src="img/dots.png" alt="3 dots"></p>
-        <p id="pwd4"><img id="dots4" src="img/dots.png" alt="3 dots"></p>
+        <div class="title">
+            <h1 class="title">Generate a <br> <span id="secondColor">random password</span></h1>
+            <p class="support">Never use an insecure password again.</p>
+        </div><!--clse title-->
+       
+        <div class="button">
+            <button id="generate" onclick="getPassWord()">
+                <img id="flash" src="img/flash.png" alt="lightning bolt" > Generate Password
+            </button>
+        </div><!--close button-->
+       
+        <div class="password">
+            <p id="line"></p>
+
+            <div class="col1">
+                <p id="pwd1"><img class="dots" id="dots1" src="img/dots.png" alt="3 dots"></p>
+                <p id="pwd2"><img class="dots" id="dots2" src="img/dots.png" alt="3 dots"></p>
+            </div><!--close col1-->
+
+            <div class="col2">
+                <p id="pwd3"><img class="dots" id="dots3" src="img/dots.png" alt="3 dots"></p>
+                <p id="pwd4"><img class="dots" id="dots4" src="img/dots.png" alt="3 dots"></p>
+            </div><!--close col2 -->
+            
+        </div><!--close password-->
+        
     </div><!--hero close-->
     <script src="index.js"></script>
 </body>

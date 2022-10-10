@@ -1,55 +1,98 @@
 body{
-    margin: 0;
+    margin: 0, auto;
     background-color:  #1F2937;
+    min-width: 500px;
+ 
 }
+
+
 .hero{
-    position: absolute;
-    width: 550px;
-    height: 550px;
-    left: 62px;
-    top: 7px;  
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
     background-color: #1F2937;
 }
 
 .title{
-    position: absolute;
-    width: 354px;
-    height: 80px;
-    left: 52px;
-    top: 118px;
-    font-family: karla;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 40px;
-    letter-spacing: -0.025em;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    align-items: left;
+
+}
+
+#flash{
+    height: 1.75em;
+    margin-right: 1em;
     color: #fff;
 }
 
+.password{
+    display: flex;
+    flex-direction: column;
+;
+}
+.col1{
+    display: flex;
+    width: 100%;
+
+   
+}
+
+.col2{
+    display: flex;
+    width: 100%;
+  
+
+}
+
+#pwd1, 
+#pwd2,
+#pwd3,
+#pwd4{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: #10B981;
+    padding: 1em 2em;
+    margin: 1em auto;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    color: #D5D4D8;
+    text-align: center;
+}
+
+
+.title{
+    font-family: karla;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1em;
+    letter-spacing: -0.025em;
+    color: #fff;
+    margin-bottom: 0;
+}
+
 .support{
-    position: absolute;
-    width: 372px;
-    height: 28px;
-    left: 52px;
-    top: 208px;
     font-family: inter;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.3rem;
+    line-height: 1.5;
     color: #D5D4D8;
+    margin: 0;
+    margin-bottom: 1em;
 }
 #generate{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 17px 9px 15px;
-    position: absolute;
-    width: 223px;
-    height: 42px;
-    left: 52px;
-    top: 287px;
+    padding: 1em 2.5em;
     background-color: #10B981;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0, 0.05);
     border-radius: 6px;
@@ -60,106 +103,6 @@ body{
 }
 
 #line{
-    position: absolute;
-    width: 446px;
-    height: 0px;
-    left: 52px;
-    top: 364px;
-    border: 1px solid #2f3e53;
-}
-
-#pwd1 {
-    position: absolute;
-    text-align: center;
-    width: 211px;
-    height: 39px;
-    left: 52px;
-    top: 399px;
-    background-color: #273549;
-    border-radius: 6px;
-    color: white;
-    font-size: 25px;
-  
-}
-
-#pwd2 {
-    position: absolute;
-    text-align: center;
-    width: 211px;
-    height: 39px;
-    left: 287px;
-    top: 399px;
-    background: #273549;
-    border-radius: 6px;
-    color: white;
-    font-size: 25px;
-}
-
-#pwd3 {
-    position: absolute;
-    text-align: center;
-    width: 211px;
-    height: 39px;
-    left: 52px;
-    top: 465px;
-    background-color: #273549;
-    border-radius: 6px;
-    color: white;
-    font-size: 25px;
-}
-
-#pwd4 {
-    position: absolute;
-    text-align: center;
-    width: 211px;
-    height: 39px;
-    left: 287px;
-    top: 465px;
-    background-color: #273549;
-    border-radius: 6px;
-    color: white;
-    font-size: 25px;
-
-}
-
-#flash{
-    position: absolute;
-    width: 14px;
-    height: 18px;
-    top: 25%;
-    left: 10%;
-    right: 15%;
-    bottom: 5%;
-}
-
-#dots1 {
-    position: absolute;
-    top: 18px;
-    left: 50%;
-    width: 20px;
-    height: 5px;
-}
-
-#dots2 {
-    position: absolute;
-    top: 18px;
-    left: 45%;
-    width: 20px;
-    height: 5px;
-}
-
-#dots3 {
-    position: absolute;
-    top: 18px;
-    left: 50%;
-    width: 20px;
-    height: 5px;
-}
-
-#dots4 {
-    position: absolute;
-    top: 18px;
-    left: 45%;
-    width: 20px;
-    height: 5px;
+    border-bottom: 1px solid gray;
+    width: 500px;
 }
