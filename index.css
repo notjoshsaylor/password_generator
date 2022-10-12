@@ -23,6 +23,17 @@ body{
 
 }
 
+button{
+    border: none;
+}
+
+
+#generate:hover,
+#generate:focus{
+    cursor: pointer;
+    background-color: aqua;
+}
+
 #flash{
     height: 1.75em;
     margin-right: 1em;
